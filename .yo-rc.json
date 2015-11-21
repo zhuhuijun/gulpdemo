@@ -1,0 +1,78 @@
+{
+  "generator-gulp-angular": {
+    "version": "1.0.0",
+    "props": {
+      "angularVersion": "~1.4.2",
+      "angularModules": [
+        {
+          "key": "animate",
+          "module": "ngAnimate"
+        },
+        {
+          "key": "cookies",
+          "module": "ngCookies"
+        },
+        {
+          "key": "touch",
+          "module": "ngTouch"
+        },
+        {
+          "key": "sanitize",
+          "module": "ngSanitize"
+        },
+        {
+          "key": "messages",
+          "module": "ngMessages"
+        },
+        {
+          "key": "aria",
+          "module": "ngAria"
+        }
+      ],
+      "jQuery": {
+        "key": "zepto"
+      },
+      "resource": {
+        "key": "angular-resource",
+        "module": "ngResource"
+      },
+      "router": {
+        "key": "ui-router",
+        "module": "ui.router"
+      },
+      "ui": {
+        "key": "bootstrap",
+        "module": null
+      },
+      "bootstrapComponents": {
+        "key": "ui-bootstrap",
+        "module": "ui.bootstrap"
+      },
+      "cssPreprocessor": {
+        "key": "node-sass",
+        "extension": "scss"
+      },
+      "jsPreprocessor": {
+        "key": "noJsPrepro",
+        "extension": "js",
+        "srcExtension": "js"
+      },
+      "htmlPreprocessor": {
+        "key": "noHtmlPrepro",
+        "extension": "html"
+      },
+      "foundationComponents": {
+        "name": null,
+        "version": null,
+        "key": null,
+        "module": null
+      },
+      "paths": {
+        "src": "src",//源代码
+        "dist": "dist",//生产目录
+        "e2e": "e2e",//端到端的测试用例
+        "tmp": ".tmp"//临时目录
+      }
+    }
+  }
+}
